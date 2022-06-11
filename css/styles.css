@@ -4,10 +4,11 @@
     --main-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --btn-hover-focus: #188CE8;
     --footer-color: #2F303A;
     --accent-bg-color: #F5F4FA;
-    --primary-white-color: #FFFFFF;
-    --primary-black-color: #000000;
+    --primary-bg-color: #FFFFFF;
+    --header-logo-color: #000000;
 }
 
 
@@ -20,7 +21,7 @@
     line-height: 1.7;
     color: var(--main-text-color);
     
-    background-color: var(--primary-white-color);
+    background-color: var(--primary-bg-color);
 }
 
 .list {
@@ -50,11 +51,11 @@
 }
 
 .header-logo-dark {
-    color: var(--primary-black-color);
+    color: var(--header-logo-color);
 }
 
 .footer-logo-bright {
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
 }
 
 /* Buttons */
@@ -64,7 +65,7 @@
     line-height: 1.9;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--primary-white-color); 
+    color: var(--primary-bg-color); 
     
     background-color: var(--accent-color);
     border-radius: 4px;
@@ -72,7 +73,7 @@
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #188CE8;
+    background-color: var(--btn-hover-focus);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -90,7 +91,7 @@
 .current-btn,
 .portfolio-button:hover,
 .portfolio-button:focus {
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
     background-color: var(--accent-color);
 }
 
@@ -133,12 +134,13 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
 }
 
 /* Benefits */
 .benefits-list-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -173,13 +175,14 @@
     height: 368px;
     left: 215px;
     top: 1635px;
-    background: var(--primary-white-color);
+    background-color: var(--primary-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
     font-weight: 500;
+    font-size: 16px;
     color: var(--title-text-color);
 }
 
@@ -216,7 +219,7 @@
     font-style: normal;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: var(--primary-white-color);
+    color: var(--primary-bg-color);
 }
 
 .footer-contact {
